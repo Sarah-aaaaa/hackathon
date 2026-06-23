@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+    font-family: "Bahnschrift SemiCondensed";
+}
+.navbar ul{
+    list-style-type: none ;
+    
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    text-align: center;
+    gap: 20px;   /* space between buttons */
+}
+.navbar li {
+    flex: 1;
+}
+.navbar a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    background-color: #BAD7E9;
+    color: black;
+    font-family: "Bahnschrift SemiCondensed";
+    text-decoration: none;
+    border-right: 0px solid white;
+    border-right: none;     
+    border-radius: 12px;      
+    transition: 0.3s; 
+}
+.navbar li:last-child a {
+    border-right: none;
+}
+h2{
+    font-family: "Bahnschrift SemiCondensed";
+    text-align: center;
+}
+h3{
+    font-family: "Bahnschrift SemiCondensed";
+    text-align: center;
+}
+h4{
+    font-family: "Bahnschrift SemiCondensed";
+    text-align: center;
+}
+h5{
+    font-family: "Bahnschrift SemiCondensed";
+    text-align: center;
+}
+h6{
+    font-family: "Bahnschrift SemiCondensed";
+    text-align: center;
+}
